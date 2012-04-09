@@ -69,7 +69,7 @@ module SuperModel
       end
       
       def delete_all
-        all.each { |rec| rec.destroy }
+        all.each { |rec| rec.delete }
       end
       
       def find_by_attribute(key, value)
