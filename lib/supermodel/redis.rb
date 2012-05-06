@@ -19,6 +19,10 @@ module SuperModel
         @namespace = namespace
       end
       
+      def use_redis(active_redis)
+        @redis = active_redis
+      end
+
       def redis
         @redis ||= ::Redis.connect(redis_options)
       end
