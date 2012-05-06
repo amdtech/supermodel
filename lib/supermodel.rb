@@ -15,6 +15,8 @@ require "active_support/json"
 
 require "active_model"
 
+require 'uuidtools'
+
 module SuperModel
   class SuperModelError < StandardError; end
   class UnknownRecord < SuperModelError; end
