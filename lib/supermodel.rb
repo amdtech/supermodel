@@ -1,5 +1,6 @@
 gem "activesupport"
 gem "activemodel"
+gem "uuidtools"
 
 require "active_support/core_ext/class/attribute_accessors"
 require "active_support/core_ext/hash/indifferent_access"
