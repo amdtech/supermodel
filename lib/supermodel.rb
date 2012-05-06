@@ -30,6 +30,7 @@ module SuperModel
   autoload :Observing,   "supermodel/observing"
   autoload :Marshal,     "supermodel/marshal"
   autoload :RandomID,    "supermodel/random_id"
+  autoload :UUID,        "supermodel/uuid"
   autoload :Timestamp,   "supermodel/timestamp"
   autoload :Validations, "supermodel/validations"
   autoload :Dirty,       "supermodel/dirty"
